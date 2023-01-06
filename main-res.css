@@ -1,0 +1,43 @@
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .image {
+        width: 100px;
+        border-radius: 100px;
+    }
+    .section {
+        margin: 20px 20px 20px 20px;
+        background-color: white;
+        padding: 80px 40px 80px 40px;
+        border-radius: 20px;
+        display: block;
+    }
+    
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .image {
+        width: 150px;
+        border-radius: 150px;
+    }
+    body {
+        color: rgb(62, 10, 233);
+    }
+    .section {
+        margin: 20px 20px 20px 20px;
+        background-color: white;
+        padding: 50px 50px 50px 50px;
+        border-radius: 20px;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        color: red;
+    }
+    .section {
+        display: block;
+        margin: 50px ;
+        text-align: center;
+    }
+}

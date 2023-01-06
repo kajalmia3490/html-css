@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    background-image: url("images/signup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    text-align: center;
+    margin: 50px;
+}
+img {
+    width: 150px;
+    border-radius: 150px;
+}
+span {
+    font-size: 20px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.btn a {
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover {
+    background-color: gray;
+    border: none;
+}
+.text {
+    font-size: medium;
+    text-decoration: underline;
+}
+.text:hover {
+    text-decoration: underline;
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+}
